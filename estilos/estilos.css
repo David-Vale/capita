@@ -1,0 +1,22 @@
+.fuente{
+    font-family: 'Bebas Neue';
+}
+
+.fuentelista{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.margen{
+    margin-top: 40px;
+}
+
+.fuenteSpace{
+    font-family: 'Bebas Neue';
+    /*letter-spacing: 4px;*/
+    font-size: 23px;
+}
+
+.con{
+    margin: auto;
+}
+

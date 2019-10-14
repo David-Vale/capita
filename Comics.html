@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+     <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+         <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/estilos.css">
+
+
+
+</head>
+    <body>
+        
+        <div class="navbar-fixed">
+          <nav class="nav-wrapper grey darken-4">
+              <div class="container">
+                  <a href="Comics.html" class="brand-logo fuente" >La Capa Negra</a>
+                  <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+                      <i class="material-icons">menu</i>
+                  </a>
+                  <ul class="right  hide-on-med-and-down">
+                      <li><a href="Comics.html" class="fuenteSpace">COMICS</a></li>
+                      <li><a href="Tiendas.html" class="fuenteSpace">TIENDAS</a></li>
+                      <li><a href="#" class="fuenteSpace">PROXIMAMENTE</a></li>
+                  </ul>
+              </div>
+          </nav>
+        </div>
+        <ul class="sidenav" id="menu-responsive">
+            <li><a href="Comics.html">Comics</a></li>
+            <li><a href="Tiendas.html">Tiendas</a></li>
+            <li><a href="#">Proximamente</a></li>
+        </ul>
+        
+        <div class="container section">
+            <div class="row">
+                  <div class="col s4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/cards/s.jpg"  alt="" class="activator">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4 " >Sandman (2016)</span>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Sandman<i class="material-icons right">close</i></span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quas ab cum natus omnis atque possimus, aliquid temporibus quis esse earum pariatur aliquam, commodi soluta facilis doloribus eos fuga nisi!</p>
+                          <div class="chip">
+                            Vertigo
+                            <i class="close material-icons">close</i>
+                            </div>
+                            <div class="chip">
+                            <img src="img/cards/neil.jpg" alt="Contact Person">
+                            Neil Gaiman
+                            </div>
+                            <div class="chip">
+                            Graphic Novels
+                            <i class="close material-icons">close</i>
+                            </div>
+                           </div>                            
+                        </div>
+                    </div>
+               <div class="col s4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/cards/w.jpg"  alt="" class="activator">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4 " >Watchmen (2017)</span>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">Watchmen<i class="material-icons right">close</i></span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quas ab cum natus omnis atque possimus, aliquid temporibus quis esse earum pariatur aliquam, commodi soluta facilis doloribus eos fuga nisi!</p>
+                          <div class="chip">
+                            Vertigo
+                            <i class="close material-icons">close</i>
+                            </div>
+                            <div class="chip">
+                            <img src="img/cards/alan.jpg" alt="Contact Person">
+                            Alan Moore
+                            </div>
+                            <div class="chip">
+                            <img src="img/cards/d.jpg" alt="Contact Person">
+                            Dave Gibbons
+                            </div>
+                            <div class="chip">
+                            Graphic Novels
+                            <i class="close material-icons">close</i>
+                            </div>
+                           </div>                            
+                        </div>
+                    </div>
+                
+                <div class="col s4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/cards/v.jpg"  alt="" class="activator">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4 " >V for Vendetta (2018)</span>
+                        </div>
+                        <div class="card-reveal">
+                          <span class="card-title grey-text text-darken-4">V for Vendetta<i class="material-icons right">close</i></span>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quas ab cum natus omnis atque possimus, aliquid temporibus quis esse earum pariatur aliquam, commodi soluta facilis doloribus eos fuga nisi!</p>
+                          <div class="chip">
+                            Vertigo
+                            <i class="close material-icons">close</i>
+                            </div>
+                            <div class="chip">
+                            <img src="img/cards/alan.jpg" alt="Contact Person">
+                            Alan Moore
+                            </div>
+                            <div class="chip">
+                            <img src="img/cards/da.jpg" alt="Contact Person">
+                            David Lloyd
+                            </div>
+                            <div class="chip">
+                            Graphic Novels
+                            <i class="close material-icons">close</i>
+                            </div>
+                           </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <script>
+             document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.sidenav');
+                var instances = M.Sidenav.init(elems);
+                 
+                var elems = document.querySelectorAll('.slider');
+                var instances = M.Slider.init(elems,{
+                    indicators: false,
+                    fullWidth: true,
+                    height: 500
+                });
+              });
+        </script>
+        
+
+    </body>
+    
+</html>

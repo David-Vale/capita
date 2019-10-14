@@ -1,0 +1,36 @@
+#pag .contenedor{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    
+}
+
+#pag .box{
+    font-family: sans-serif;
+    text-align: center;
+    width: 20%;
+    height:150px;
+    background: gray;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    
+}
+
+@media screen and (max-width:1300px){
+    #pag .box{
+        width: 40%;
+        
+    }
+}
+@media screen and (max-width:600px){
+    #pag .box{
+        width: 90%;
+        
+    }
+}
+
